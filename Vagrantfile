@@ -3,6 +3,9 @@
 $provision = <<SCRIPT
 sudo apt-get update
 
+# Redis is used as both the broker and the result store
+sudo apt-get install -y redis-server
+
 sudo apt-get install -y python-virtualenv
 
 # Since we're in a VM, move to the shared directory.
