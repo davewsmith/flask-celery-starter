@@ -4,8 +4,9 @@ A small demonstration of getting Celery 2.4.0 working with Flask 1.0.2
 (with logging).
 
 Flask and Celery work well together once you work through the tedious details
-of getting everything set up just right. Googling for times is liable to turn
-up partial answer than don't work together.
+of getting everything set up just right. Googling for help is liable to turn
+up partial answers that don't work together, in part due to recent revisions
+in Celery.
 Hence this example.
 
 ## To Build
