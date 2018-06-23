@@ -29,7 +29,7 @@ Vagrant.configure("2") do |config|
 
     config.vm.provider "virtualbox" do |vb|
         vb.name = "Celery Starter"
-        vb.memory = 2048
+        vb.memory = 1024  # Raspberry Pi 3-sized
         vb.cpus = 1
     end
 
