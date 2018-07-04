@@ -33,6 +33,8 @@ Vagrant.configure("2") do |config|
         vb.cpus = 1
     end
 
-    config.vm.provision "file", source: "~/.gitconfig", destination: ".gitconfig"
     config.vm.provision :shell, inline: $provision, privileged: false
+
+    # Make git immediately usable inside the VM
+    config.vm.provision "file", source: "~/.gitconfig", destination: ".gitconfig"
 end
