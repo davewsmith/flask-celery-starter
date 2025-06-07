@@ -1,5 +1,7 @@
 # Flask + Celery Starter
 
+**NOTE:** This is old. I don't use this any longer, but am keeping this around as a reference.
+
 A small demonstration of getting Celery 2.4.0 working with Flask 1.0.2
 (with logging).
 
